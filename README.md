@@ -105,6 +105,8 @@ Input Sequence → LSTM → Fully Connected Layer → Output Prediction
 * Challenges of forecasting noisy features like volume
 * Benefits of early stopping and proper evaluation
 
+---
+
 
 ## 📌 Important Notes
 
