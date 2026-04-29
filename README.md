@@ -28,12 +28,6 @@ The dataset contains financial time series data that captures market trends and 
 * Low
 * Close
 * Volume
-* VWAP
-* Volume
-* Turnover
-* Trades
-* Deliverable Volume
-* (and other related features)
 
 ---
 
@@ -42,13 +36,24 @@ The dataset contains financial time series data that captures market trends and 
 * Time series forecasting using LSTM
 * Sequential data modeling using sliding window approach
 * Data normalization using MinMaxScaler
-* Deep learning model built using TensorFlow/Keras
+* Deep learning model implementation
 * Evaluation using:
 
   * MSE (Mean Squared Error)
   * RMSE (Root Mean Squared Error)
   * MAE (Mean Absolute Error)
 * Visualization of predicted vs actual values
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* PyTorch
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
 
 ---
 
@@ -60,7 +65,7 @@ The dataset contains financial time series data that captures market trends and 
 
 ### Flow:
 
-Input Sequence → LSTM → Dense Layer → Output Prediction
+Input Sequence → LSTM → Fully Connected Layer → Output Prediction
 
 ---
 
@@ -97,14 +102,10 @@ Input Sequence → LSTM → Dense Layer → Output Prediction
 ## 📌 Important Notes
 
 * Stock price prediction is inherently uncertain
-* LSTM works well for capturing temporal dependencies but cannot perfectly predict market volatility
+* LSTM models capture temporal dependencies but cannot fully model sudden market volatility
 
 ---
 
 
 
-## 📜 License
 
-This project is for academic and educational purposes only.
-
----
