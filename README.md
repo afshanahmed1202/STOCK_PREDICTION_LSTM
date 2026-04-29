@@ -106,6 +106,7 @@ Input Sequence → LSTM → Fully Connected Layer → Output Prediction
 
 ---
 
-
+## 🚀 Acknowledgment 
+ This project was developed as part of a college assignment on time series forecasting and deep learning.
 
 
