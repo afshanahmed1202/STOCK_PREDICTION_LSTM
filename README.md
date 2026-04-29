@@ -28,6 +28,11 @@ The dataset contains financial time series data that captures market trends and 
 * Low
 * Close
 * Volume
+* VWAP
+* Turnover
+* Trades
+* Deliverable Volume
+* (and other related features)
 
 ---
 
