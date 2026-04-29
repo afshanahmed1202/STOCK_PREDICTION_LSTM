@@ -98,6 +98,13 @@ Input Sequence → LSTM → Fully Connected Layer → Output Prediction
 
 ---
 
+## 🚀 Key Learnings
+
+* Importance of time-aware cross-validation
+* Effect of feature scaling on model performance
+* Challenges of forecasting noisy features like volume
+* Benefits of early stopping and proper evaluation
+
 
 ## 📌 Important Notes
 
@@ -106,7 +113,7 @@ Input Sequence → LSTM → Fully Connected Layer → Output Prediction
 
 ---
 
-## 🚀 Acknowledgment 
+## ⭐ Acknowledgment 
  This project was developed as part of a college assignment on time series forecasting and deep learning.
 
 
